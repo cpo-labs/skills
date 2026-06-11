@@ -1,4 +1,4 @@
-# claude-skills
+# skills
 
 Six working skills for [Claude Code](https://claude.com/claude-code), distilled
 from daily use. Built at [AppSales Labs](https://labs.appsales-consulting.de).
@@ -19,8 +19,8 @@ how the agent works.
 ## Install
 
 ```bash
-git clone https://github.com/cpo-labs/claude-skills.git
-cd claude-skills
+git clone https://github.com/cpo-labs/skills.git
+cd skills
 ./install.sh
 ```
 
