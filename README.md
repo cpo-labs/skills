@@ -1,6 +1,6 @@
 # skills
 
-Six working skills for [Claude Code](https://claude.com/claude-code), distilled
+Seven working skills for [Claude Code](https://claude.com/claude-code), distilled
 from daily use. Built at [AppSales Labs](https://labs.appsales-consulting.de).
 No frameworks, no dependencies: each skill is one Markdown file that changes
 how the agent works.
@@ -15,6 +15,7 @@ how the agent works.
 | **voiceprint** | Distills a reusable voice profile from your real writing samples, so AI output sounds like you |
 | **brandkit** | Defines your brand once as two text files (design + voice) and enforces them on every rendered output |
 | **elephant** | Persistent project memory as plain Markdown files with an index: no database, readable by humans and agents |
+| **council** | Convenes a four-voice council (Architect, Skeptic, Pragmatist, Critic) for ambiguous decisions, surfacing structured disagreement before you choose |
 
 ## Install
 
