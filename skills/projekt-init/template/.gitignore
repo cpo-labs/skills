@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.local
+*.env.local
+!.env.example
+credentials/
+
+# Raw inputs (source of truth = the distilled Markdown, not the raw material)
+_input/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS / Editor
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Local agent state
+.claude/
