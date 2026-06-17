@@ -1,9 +1,9 @@
 # skills
 
-Seven working skills for [Claude Code](https://claude.com/claude-code), distilled
+Eight working skills for [Claude Code](https://claude.com/claude-code), distilled
 from daily use. Built at [AppSales Labs](https://labs.appsales-consulting.de).
-No frameworks, no dependencies: each skill is one Markdown file that changes
-how the agent works.
+No frameworks, no dependencies: each skill is a self-contained Markdown file
+(plus a template folder where it helps) that changes how the agent works.
 
 ## The skills
 
@@ -16,6 +16,7 @@ how the agent works.
 | **brandkit** | Defines your brand once as two text files (design + voice) and enforces them on every rendered output |
 | **elephant** | Persistent project memory as plain Markdown files with an index: no database, readable by humans and agents |
 | **council** | Convenes a four-voice council (Architect, Skeptic, Pragmatist, Critic) for ambiguous decisions, surfacing structured disagreement before you choose |
+| **projekt-init** | Scaffolds a clean project skeleton (vision, brief, agent instructions, file-based `_memory/`) so humans and agents can navigate a new repo from day one |
 
 ## Install
 
