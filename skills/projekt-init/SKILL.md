@@ -42,7 +42,7 @@ never feature code.
   CLAUDE.md            agent operating instructions; @-pulls _memory into context
   .gitignore           sensible defaults (secrets, deps, caches, raw inputs)
   _input/              raw briefing material — gitignored, never the source of truth
-  _output/             generated artifacts (decks, docs, mockups)
+  _out/             generated artifacts (decks, docs, mockups)
   _memory/
     DOMAIN.md          pointer file → domain-model.md
     HOWTO.md           operational knowledge: workarounds, setup notes, lessons
@@ -104,7 +104,7 @@ content. Point the user at the next steps:
 
 - **`_input/` is never the source of truth.** It is raw, gitignored material.
   The distilled Markdown files are what the project actually relies on.
-- **`_output/` is for generated artifacts**, kept separate from source.
+- **`_out/` is for generated artifacts**, kept separate from source.
 - **One AGENTS.md, one CLAUDE.md.** If you run more than one agent harness,
   symlink `AGENTS.md → CLAUDE.md` so every tool reads the same instructions:
   `ln -s CLAUDE.md AGENTS.md`.

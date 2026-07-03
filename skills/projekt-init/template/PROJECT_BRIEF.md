@@ -19,14 +19,14 @@ _TBD_
 
 ```
 _input/    raw inputs, briefings, transcripts (gitignored)
-_output/   generated outputs (decks, PDFs, mockups)
+_out/   generated outputs (decks, PDFs, mockups)
 _memory/   domain model, memory, open threads
 ```
 
 ## Conventions
 
 - Commits: `feat|fix|refactor|docs: ...`
-- Generated artifacts go in `_output/`
+- Generated artifacts go in `_out/`
 - Raw material stays in `_input/` and is never the source of truth
 
 ## Open threads

@@ -15,7 +15,7 @@ Strategy + status: see [`VISION.md`](VISION.md) (why / goal / KPI) and
 
 - Don't invent: no stakeholder names, numbers, or dates without a source.
 - Cite the source per claim (file path, quote, link).
-- Generated outputs go in `_output/`.
+- Generated outputs go in `_out/`.
 
 ## Don't commit
 
