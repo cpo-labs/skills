@@ -1,5 +1,5 @@
 @_memory/domain-model.md
-@_memory/open-threads.md
+Offene Punkte: `_memory/open-threads.md` (wird nicht mehr automatisch geladen, bei Bedarf lesen)
 
 # {{PROJECT}}
 
